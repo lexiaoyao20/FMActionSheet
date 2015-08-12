@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		9388CB071B73540B00E894BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9388CB061B73540B00E894BB /* main.m */; };
 		9388CB0A1B73540B00E894BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9388CB091B73540B00E894BB /* AppDelegate.m */; };
-		9388CB0D1B73540B00E894BB /* FMActionSheet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9388CB0B1B73540B00E894BB /* FMActionSheet.xcdatamodeld */; };
 		9388CB101B73540B00E894BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9388CB0F1B73540B00E894BB /* ViewController.m */; };
 		9388CB131B73540B00E894BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9388CB111B73540B00E894BB /* Main.storyboard */; };
 		9388CB151B73540B00E894BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9388CB141B73540B00E894BB /* Images.xcassets */; };
 		9388CB181B73540B00E894BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9388CB161B73540B00E894BB /* LaunchScreen.xib */; };
 		9388CB241B73540B00E894BB /* FMActionSheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9388CB231B73540B00E894BB /* FMActionSheetTests.m */; };
+		9388CB321B7364F600E894BB /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 9388CB311B7364F600E894BB /* UIColor+HexString.m */; };
+		93968B841B7B045100819BAF /* FMActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 93968B831B7B045100819BAF /* FMActionSheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +34,6 @@
 		9388CB061B73540B00E894BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9388CB081B73540B00E894BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9388CB091B73540B00E894BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9388CB0C1B73540B00E894BB /* FMActionSheet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FMActionSheet.xcdatamodel; sourceTree = "<group>"; };
 		9388CB0E1B73540B00E894BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9388CB0F1B73540B00E894BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9388CB121B73540B00E894BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +42,10 @@
 		9388CB1D1B73540B00E894BB /* FMActionSheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMActionSheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9388CB221B73540B00E894BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9388CB231B73540B00E894BB /* FMActionSheetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMActionSheetTests.m; sourceTree = "<group>"; };
+		9388CB301B7364F600E894BB /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		9388CB311B7364F600E894BB /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		93968B821B7B045100819BAF /* FMActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMActionSheet.h; sourceTree = "<group>"; };
+		93968B831B7B045100819BAF /* FMActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMActionSheet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,9 @@
 		9388CB031B73540B00E894BB /* FMActionSheet */ = {
 			isa = PBXGroup;
 			children = (
+				93968B811B7B045100819BAF /* ActionSheet */,
+				9388CB301B7364F600E894BB /* UIColor+HexString.h */,
+				9388CB311B7364F600E894BB /* UIColor+HexString.m */,
 				9388CB081B73540B00E894BB /* AppDelegate.h */,
 				9388CB091B73540B00E894BB /* AppDelegate.m */,
 				9388CB0E1B73540B00E894BB /* ViewController.h */,
@@ -90,7 +97,6 @@
 				9388CB111B73540B00E894BB /* Main.storyboard */,
 				9388CB141B73540B00E894BB /* Images.xcassets */,
 				9388CB161B73540B00E894BB /* LaunchScreen.xib */,
-				9388CB0B1B73540B00E894BB /* FMActionSheet.xcdatamodeld */,
 				9388CB041B73540B00E894BB /* Supporting Files */,
 			);
 			path = FMActionSheet;
@@ -120,6 +126,15 @@
 				9388CB221B73540B00E894BB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93968B811B7B045100819BAF /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				93968B821B7B045100819BAF /* FMActionSheet.h */,
+				93968B831B7B045100819BAF /* FMActionSheet.m */,
+			);
+			path = ActionSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9388CB0D1B73540B00E894BB /* FMActionSheet.xcdatamodeld in Sources */,
+				93968B841B7B045100819BAF /* FMActionSheet.m in Sources */,
+				9388CB321B7364F600E894BB /* UIColor+HexString.m in Sources */,
 				9388CB0A1B73540B00E894BB /* AppDelegate.m in Sources */,
 				9388CB101B73540B00E894BB /* ViewController.m in Sources */,
 				9388CB071B73540B00E894BB /* main.m in Sources */,
@@ -420,6 +436,7 @@
 				9388CB291B73540B00E894BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9388CB2A1B73540B00E894BB /* Build configuration list for PBXNativeTarget "FMActionSheetTests" */ = {
 			isa = XCConfigurationList;
@@ -428,21 +445,9 @@
 				9388CB2C1B73540B00E894BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		9388CB0B1B73540B00E894BB /* FMActionSheet.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				9388CB0C1B73540B00E894BB /* FMActionSheet.xcdatamodel */,
-			);
-			currentVersion = 9388CB0C1B73540B00E894BB /* FMActionSheet.xcdatamodel */;
-			path = FMActionSheet.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 9388CAF91B73540B00E894BB /* Project object */;
 }
