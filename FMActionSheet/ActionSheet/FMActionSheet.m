@@ -178,8 +178,8 @@
     }
     CGFloat topY = _titleLabel ? CGRectGetMaxY(_titleLabel.frame) : 0;
     for (int index = 0; index < self.buttons.count; index++) {
-        int lineIndex = _titleLabel ? index : index + 1;
-        UIImageView *line = [self.lines objectAtIndex:lineIndex];
+//        int lineIndex = _titleLabel ? index : index + 1;
+        UIImageView *line = [self.lines objectAtIndex:index];
         CGFloat lineY = topY + index * (_buttonHeight + 1);
         [line setFrame:CGRectMake(0, lineY, SCREEN_SIZE.width, 1)];
         
